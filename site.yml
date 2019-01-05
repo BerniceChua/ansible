@@ -80,3 +80,11 @@
   tags: [cloud]
   roles:
     - nextcloud-docker
+
+- name: Earl RFID Access
+  hosts: earl
+  become: yes
+  become_method: sudo
+  tags: [earl]
+  roles:
+    - earl

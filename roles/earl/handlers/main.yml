@@ -1,0 +1,6 @@
+---
+- name: restart earl
+  become: true
+  service:
+    name: earl
+    state: restarted
